@@ -1,12 +1,12 @@
 # Surtidata.com
 
-## Pagina Web Constructura Marin Gomez.
+## Webpack4 Starter Kit.
 
-Este es el codigo de la pagina web estatica de Constructora Marin Gomez.
+Webpack starter kit for html5, css3, sass 7-1 and JS
 
 ## Inicio
 
-El proyecto fue iniciado el 14 de enero de 2020.
+El proyecto fue iniciado el 20 de enero de 2020.
 
 ## Finalizado
 
