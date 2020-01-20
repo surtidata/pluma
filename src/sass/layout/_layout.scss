@@ -1,0 +1,23 @@
+.container {
+    max-width: 160rem;
+    min-height: calc(100vh - 4rem);
+
+    width: 80%;
+
+    margin: 2rem auto;
+
+    // background-color: $color-background;
+    // color: $color-text-primary;
+    // box-shadow: $shadow-dark;
+
+    backface-visibility: hidden;
+
+    @media only screen and (min-width: $screen_4K) {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+    @media only screen and (max-width: $screen_desktop) {
+        margin: 0 auto;
+        min-height: 100vh;
+    }
+}

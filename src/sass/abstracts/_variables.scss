@@ -1,0 +1,35 @@
+$color-variance: 10%;
+$color-primary: #4b99e7;
+$color-primary-light: lighten($color-primary, $color-variance);
+$color-primary-dark: darken($color-primary, $color-variance);
+
+$color-secundary: #f40844;
+$color-secundary-light: lighten($color-secundary, $color-variance);
+$color-secundary-dark: darken($color-secundary, $color-variance);
+
+//https://colordesigner.io/#477EB4-EDE5F4-8EC7D2-0D6986-07485B
+
+$color-success: #18af52;
+$color-info: #3483fa;
+$color-danger: #f1133a;
+$color-warning: #f4bb04;
+$color-cta: #ef1111;
+
+$color-gray-light: lighten(gray, $color-variance);
+$color-gray-dark: darken(gray, $color-variance);
+
+$color-text-primary: #211d1d;
+$color-text-secundary: #555252;
+
+$color-background: #eeeded;
+$color-black: #34495e;
+
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+$shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+
+//Media queries
+$screen_4K: 160em; // 2560 / 16
+$screen_desktop: 100.625em; // 1610 / 16
+$screen_laptop: 80em; //1280 /16
+$screen_tablet: 50em; //  800 / 16
+$screen_phone: 28.875em; //  462 / 16

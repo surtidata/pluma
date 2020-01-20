@@ -1,0 +1,58 @@
+.palette {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+
+    width: 50%;
+    margin: 0 auto;
+}
+.row {
+    display: block;
+}
+.primary {
+    color: $color-background;
+    background-color: $color-primary;
+    padding: 2rem;
+}
+.primary-light {
+    color: $color-background;
+    background-color: $color-primary-light;
+    padding: 2rem;
+}
+.primary-darken {
+    color: $color-background;
+    background-color: $color-primary-dark;
+    padding: 2rem;
+}
+.secundary {
+    color: $color-background;
+    background-color: $color-secundary;
+    padding: 2rem;
+}
+.secundary-light {
+    color: $color-background;
+    background-color: $color-secundary-light;
+    padding: 2rem;
+}
+.secundary-darken {
+    color: $color-background;
+    background-color: $color-secundary-dark;
+    padding: 2rem;
+}
+.gray {
+    color: $color-background;
+    background-color: gray;
+    padding: 2rem;
+}
+.gray-light {
+    color: $color-background;
+    background-color: $color-gray-light;
+    padding: 2rem;
+}
+.gray-darken {
+    color: $color-background;
+    background-color: $color-gray-dark;
+    padding: 2rem;
+}

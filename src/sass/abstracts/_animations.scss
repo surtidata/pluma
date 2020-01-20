@@ -1,0 +1,171 @@
+@keyframes FromTop {
+    100% {
+        transform: translateY(0);
+    }
+
+    0% {
+        transform: translateY(-35rem);
+    }
+}
+
+@keyframes FromBottom {
+    100% {
+        transform: translateY(0);
+    }
+
+    0% {
+        transform: translateY(35rem);
+    }
+}
+
+@keyframes FromLeft {
+    100% {
+        transform: translateX(0);
+    }
+
+    0% {
+        transform: translateX(-35rem);
+    }
+}
+
+@keyframes FromRight {
+    100% {
+        transform: translateX(0);
+    }
+
+    0% {
+        transform: translateX(35rem);
+    }
+}
+
+@keyframes Vibrate {
+    100% {
+        transform: scale(1) rotate(0) translate(0);
+    }
+
+    75% {
+        transform: scale(1.101) rotate(5deg) translateY(-0.5rem);
+    }
+
+    50% {
+        transform: scale(0.95001) rotate(-5deg) translateY(0);
+    }
+
+    25% {
+        transform: scale(1.101) rotate(5deg) translateY(0.5rem);
+    }
+
+    0% {
+        transform: scale(0.95001) rotate(5deg) translateY(-0.5rem);
+    }
+}
+
+@keyframes VibrateSubtle {
+    100% {
+        transform: scale(1) rotate(0) translate(0);
+    }
+
+    75% {
+        transform: scale(1.001) rotate(0.5deg) translateY(-0.05rem);
+    }
+
+    50% {
+        transform: scale(0.995001) rotate(-0.5deg) translateY(0);
+    }
+
+    25% {
+        transform: scale(1.001) rotate(0.5deg) translateY(0.05rem);
+    }
+
+    0% {
+        transform: scale(0.995001) rotate(0.5deg) translateY(-0.05rem);
+    }
+}
+
+@keyframes Wiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    85% {
+        transform: rotate(5deg);
+    }
+    95% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes VibratePhone {
+    0%,
+    2%,
+    4%,
+    6%,
+    8%,
+    10%,
+    12%,
+    14%,
+    16%,
+    18% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    1%,
+    3%,
+    5%,
+    7%,
+    9%,
+    11%,
+    13%,
+    15%,
+    17%,
+    19% {
+        transform: translate3d(1px, 0, 0);
+    }
+    20%,
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes Shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes Pulse {
+    0% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
