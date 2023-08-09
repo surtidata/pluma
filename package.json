@@ -23,7 +23,7 @@
 
 
         "html-webpack-plugin": "^5.5.0",
-        "http-server": "^0.12.1",
+        "http-server": "^0.12.3",
         "mini-css-extract-plugin": "^2.7.2",
         "node-sass": "^4.13.1",
         "optimize-css-assets-webpack-plugin": "^5.0.1",
